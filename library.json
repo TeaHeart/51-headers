@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+  "name": "51-headers",
+  "version": "0.0.1",
+  "description": "Used to learn 51",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeaHeart/51-headers.git"
+  },
+  "platforms": "intel_mcs51",
+  "examples": [
+    {
+      "name": "blink",
+      "base": "examples/blink",
+      "files": [
+        "platformio.ini",
+        "src/main.c"
+      ]
+    },
+    {
+      "name": "flow",
+      "base": "examples/flow",
+      "files": [
+        "platformio.ini",
+        "src/main.c"
+      ]
+    }
+  ]
+}
